@@ -5,15 +5,18 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
 # Volume
-alias shutup = "osascript -e 'set volume output muted true'"
-alias tgif = "osascript -e 'set volume output volume 100'"
+alias shutup="osascript -e 'set volume output muted true'"
+alias tgif="osascript -e 'set volume output volume 100'"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
 
 # Restart zsh
-alias restart = "exec zsh -l"
+alias restart="exec zsh -l"
 
 # Software Update
-alias listsoftware = "softwareupdate --all --install"
-alias softwareupdate = "softwareupdate --all --install --force"
+alias listsoftware="softwareupdate --all --install"
+alias softwareupdate="softwareupdate --all --install --force"
+
+# Network
+alias ip="curl -s ipinfo.io | jq -r '.ip'"
