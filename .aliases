@@ -7,6 +7,7 @@ alias .....="cd ../../../.."
 # Volume
 alias shutup="osascript -e 'set volume output muted true'"
 alias tgif="osascript -e 'set volume output volume 100'"
+alias chill="osascript -e 'set volume output volume 50'"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
@@ -20,3 +21,6 @@ alias softwareupdate="softwareupdate --all --install --force"
 
 # Network
 alias ip="curl -s ipinfo.io | jq -r '.ip'"
+
+# Python 3
+alias python=python3
