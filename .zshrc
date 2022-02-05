@@ -16,6 +16,11 @@ ZSH_THEME="robbyrussell"
 # If set to an empty array, this variable will have no effect.
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
+# Set ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE to configure the style that the suggestion is shown with.
+# The default is fg=8, which will set the foreground color to color 8 from the 256-color palette.
+# If your terminal only supports 8 colors, you will need to use a number between 0 and 7.
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=009"
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
