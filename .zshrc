@@ -87,7 +87,7 @@ plugins=(
     zsh-autosuggestions
     aliases
     web-search
-    copydir
+    copypath
     history
     jsontools
     )
