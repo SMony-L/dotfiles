@@ -21,6 +21,7 @@ alias softwareupdate="softwareupdate --all --install --force"
 
 # Network
 alias ip="curl -s ipinfo.io | jq -r '.ip'"
+alias speedtest="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -"
 
 # Python 3
 alias python=python3
