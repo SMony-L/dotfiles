@@ -120,7 +120,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-
+# Merge history from all terminals
+export PROMPT_COMMAND='history -a'
 
 # CD
 alias ..="cd .."
@@ -145,9 +146,14 @@ alias softwareupdate="softwareupdate --all --install --force"
 
 # Network
 alias ip="curl -s ipinfo.io | jq -r '.ip'"
+alias ipi='ipconfig getifaddr en0'
 
 # Python 3
 alias python=python3
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Good to have
+alias cheat='function _cheat() { curl https://cht.sh/$1; }; _cheat'
+
