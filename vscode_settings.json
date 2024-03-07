@@ -1,0 +1,17 @@
+{
+    "workbench.colorTheme": "GitHub Dark Default",
+    "tabnine.experimentalAutoImports": true,
+    "terminal.integrated.automationProfile.linux": {},
+    "terminal.integrated.automationProfile.osx": {},
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "workbench.editorAssociations": {
+        "*.tiff": "analyticsignal.preview-tiff"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "explorer.confirmDelete": false,
+    "editor.largeFileOptimizations": false,
+}
